@@ -32,6 +32,10 @@ is(C4::ClassSortRoutine::LCC::get_class_sort_key('.','.'), "", "Arguments '.','.
 my @call_numbers = (
     'SB410.9 .P26 1993',
     'SB410.A26 I75 2000',
+    'QC995 .E29 1997',
+    'QC145.45 .H4 D65 1998',
+    'QC145 .A57 V.12 1980',
+    'QC100 .U57 NO. 555 1986',
 );
 
 my @sorted_call_numbers = map { $_->{call_number} }
