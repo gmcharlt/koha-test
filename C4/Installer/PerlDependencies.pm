@@ -590,6 +590,11 @@ our $PERL_DEPS = {
         'required' => '1',
         'min_ver'  => '1.23',
     },
+    'Library::CallNumber::LC' => {
+        'usage'    => 'Core',
+        'required' => '1',
+        'min_ver'  => '0.22',
+    },
 };
 
 1;
